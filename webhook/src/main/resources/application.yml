@@ -1,0 +1,4 @@
+logging:
+  discord:
+    webhook-url:
+  config: classpath:logback.xml
