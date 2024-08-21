@@ -8,6 +8,6 @@ public class ErrorController {
 
     @GetMapping("/throwError")
     public String throwError() {
-        throw new RuntimeException("This is a deliberate exception");
+        throw new RuntimeException("Error  exception");
     }
 }
