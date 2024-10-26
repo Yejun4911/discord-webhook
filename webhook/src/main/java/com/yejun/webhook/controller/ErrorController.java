@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ErrorController {
 
-    @GetMapping("/throwError")
+    @GetMapping("/error")
     public String throwError() {
         throw new RuntimeException("Error  exception");
     }
